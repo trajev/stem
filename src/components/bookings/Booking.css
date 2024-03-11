@@ -1,0 +1,74 @@
+
+.bookings{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-div{
+    display: flex;
+    justify-content: start;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 90%;
+    background: darkslategrey;
+    cursor: pointer;
+}
+
+.booking-div img{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    margin-right: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.booking-div .contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-div .inner-contents{
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    gap: 20px;
+}
+.college-name{
+    font-size: 28px;
+}
+.college-description{
+    font-size: 16px;
+}
+
+
+.booking-div .pricing-details{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.price{
+    background-color: darkcyan;
+    color: white;
+    height: 50%;
+    width: 100%;
+}
+.capacity{
+    background-color: blueviolet;
+    height: 50%;
+    width: 100%;
+}
+

@@ -6,7 +6,10 @@ const Dashboard = () => {
   return (
     <div className='dashboard-div'>
       <Navbar />
-      <h2>Welcome to the Smart Tech Event Management System!</h2>
+      <div className="content">
+
+        <h2>Welcome to the Smart Tech Event Management System!</h2>
+      </div>
     </div>
   );
 };

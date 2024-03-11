@@ -1,4 +1,16 @@
 .dashboard-div{
     width: 100vw;
+
+    display: flex;
+    flex-direction: column;
     /* background-color: red; */
 }
+
+.content{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
